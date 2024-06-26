@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(127, 167, 168, 0.733);
+  }
+  body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .weather-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #695cb6;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(47, 68, 34, 0.1);
+  }
+  #destination-select{
+    margin-top:20px;
+  }
